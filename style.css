@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'comic sans ms';
+}
+
+.background {
+  background-color: black;
+  height: 200vh;
+  padding-top: 1px;
+}
+
+.title {
+  color: greenyellow;
+  text-shadow: 10px 10px 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+}
+
+.display {
+  color: gray;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* will be able to hide any ui elements on the page */
+.hide {
+  display: none;
+}
+
+/* grid template column and row - the game board */
+.container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  grid-template-rows: 35% 35% 35%;
+  max-width: 300px;
+}
+
+/* set the border size and font size & also center it with flexbox. Cursor pointer give feedback
+for the user that this element is clickable just like an anchor tag  */
+.tile {
+  border: 1px solid lightseagreen;
+  min-width: 100px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+/* the player x and player row classes will be used to color different ui elements based on the player  */
+.playerX {
+  color: fuchsia;
+}
+
+.playerO {
+  color: blue;
+}
+
+/* center the controls section */
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+/* styling red reset button */
+#reset {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 80%; /*makes it round shape*/
+  border: dashed;
+  font-size: 20px;
+  margin-left: 1rem;
+  cursor: pointer;
+}

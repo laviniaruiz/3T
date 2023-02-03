@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./index.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+<!--   container of the game -->
+   <main class="background">
+        <section class="title">
+            <h1>Tic Tac Toe</h1>
+        </section>
+<!--     display section is to show the players whos next. Span around X with the display player & player X classes. Use the display player  class to modify  the content of this pen so changing between the users & use the player X class for coloring purposes  -->
+    <section class="display">
+            Player <span class="display-player playerX">X</span>'s turn
+        </section>
+<!--     9 game grid divs -->
+     <section class="container">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+        </section>
+<!--     announce the end game state, when  the game starts this will manipulate this from JS  -->
+    <section class="display announcer hide"></section>
+<!--     controls and reset button inside it  -->
+    <section class="controls">
+            <button id="reset">Reset</button>
+        </section>
+  </main>
+</body>
+</html>
