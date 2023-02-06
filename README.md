@@ -1,5 +1,12 @@
-# Tic Tac Toe
-Tic-tac-toe game using HTML, CSS and Javascript
+Tic Tac Toe
+
+#Tic-tac-toe
+Build With
+~ HTML
+~ CSS
+~ JavaScript
+
+
 Click the link on the bellow to play
 
 https://laviniaruiz.github.io/3T/
