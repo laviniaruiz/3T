@@ -1,2 +1,2 @@
 # 3T
-Tic Tac Toe
+## Tic Tac Toe
