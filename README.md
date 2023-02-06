@@ -1,9 +1,9 @@
-# Tic-tac-toe
+# Tic Tac Toe
 
-Build With
-~ HTML
-~ CSS
-~ JavaScript
+# Build With
+* HTML
+* CSS
+* JavaScript
 
 
 Click the link on the bellow to play
