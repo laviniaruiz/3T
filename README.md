@@ -1,6 +1,5 @@
-Tic Tac Toe
-
 #Tic-tac-toe
+
 Build With
 ~ HTML
 ~ CSS
